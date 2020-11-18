@@ -1,4 +1,4 @@
-module.exports = {
+{
     "env": {
         "browser": true,
         "es2021": true
@@ -20,6 +20,7 @@ module.exports = {
     "rules": {
         "no-empty-function": "error", 
         "semi": "error", 
-        "curly": ["error", "multi", "multi-line"]
+        "curly": "error",
+        "no-unused-vars": "allow"
     }
-};
+}

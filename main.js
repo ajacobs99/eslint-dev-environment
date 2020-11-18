@@ -46,25 +46,26 @@ function generateTable(b) {
 }
 
 generateTable(budget.myBudget);
-
+// Eslint detected 4 problems with this file
+// (1)  'aZ' is defined but never used
 function aZ() {
     const newArray = [...budget.myBudget];
     newArray.sort((a, b) => (a.title > b.title) ? 1 : - 1);
     generateTable(newArray);
 }
-
+// (2) 'zA' is defined but never used
 function zA() {
     const newArray = [...budget.myBudget];
     newArray.sort((a, b) => (a.title < b.title) ? 1 : - 1);
     generateTable(newArray);
 }
-
+// (3) 'biggerBudget' is defined but never used
 function biggerBudget() {
     const newArray = [...budget.myBudget];
     newArray.sort((a, b) => (a.budget < b.budget) ? 1 : - 1);
     generateTable(newArray);
 }
-
+// (4) 'smallerBudget' is defined but never used
 function smallerBudget() {
     const newArray = [...budget.myBudget];
     newArray.sort((a, b) => (a.budget > b.budget) ? 1 : - 1);

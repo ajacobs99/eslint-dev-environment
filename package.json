@@ -4,10 +4,13 @@
   "description": "Code to be used to start the Quiz 10 exercise.",
   "main": "main.js",
   "dependencies": {
-    "pretier": "0.0.1",
+    "eslint-config-prettier": "^6.15.0",
     "prettier": "^2.1.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "eslint-plugin-react": "^7.21.5"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
